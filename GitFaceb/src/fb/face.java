@@ -20,6 +20,7 @@ public class face {
     	d.get("https://www.facebook.com/");
     	d.findElement(By.id("email")).sendKeys("vvhjvhjvhjv");
 		 d.findElement(By.id("pass")).sendKeys("asdf");
+		 d.findElement(By.id("u_0_r")).click();
     }
 		
 	
